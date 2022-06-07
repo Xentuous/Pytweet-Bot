@@ -1,0 +1,4 @@
+python-dotenv==0.20.0
+python_telegram_bot==20.0a0
+telegram==0.0.1
+tweepy==4.10.0
