@@ -29,7 +29,7 @@ CONSUMER_KEY=<Your Twitter Consumer Key>
 CONSUMER_SECRET=<Your Twitter Consumer Secret Key>
 ```
 
-Run the bot with `python pytweet.py`
+Run the bot with `python3 pytweet.py`
 
 ---
 
