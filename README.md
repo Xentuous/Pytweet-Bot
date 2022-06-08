@@ -7,6 +7,7 @@
 
 1. [Installation](#installation)
 2. [Usage](#usage)
+3. [Examples](#examples)
 
 ---
 
@@ -18,6 +19,7 @@ Create a .env file with the following content:
 
 ***NOTE: DO NOT share your .env file with others!***
 
+Inside .env, fill in the following tokens
 ```
 TOKEN=<Your Telegram Bot Token>
 BEARER_TOKEN=<Your Twitter Bearer Token>
@@ -29,7 +31,25 @@ CONSUMER_KEY=<Your Twitter Consumer Key>
 CONSUMER_SECRET=<Your Twitter Consumer Secret Key>
 ```
 
-Run the bot with `python3 pytweet.py`
+To get the tokens, go to https://developer.twitter.com/en/apps and create a new app.
+
+![Twitter Developer](./img/Step1.png)
+
+<br>
+
+Click `Keys and tokens`
+
+![Keys and tokens](./img/Step2.png)
+
+<br>
+
+Generate the following keys and insert into .env
+
+![Generate tokens](./img/Step3.png)
+
+<br>
+
+Finally run the bot with `python3 pytweet.py`
 
 ---
 
@@ -40,3 +60,24 @@ Run the bot with `python3 pytweet.py`
                   Each with (TweetNumber) <status>
 ```
 
+---
+
+### Examples
+
+Running the code
+
+![Shell](./img/shell.jpg)
+
+<br>
+
+Entering my tweet in the bot
+
+![Bot](./img/telebot.jpg)
+
+<br>
+
+Tweet displaying in Twitter
+
+![Twitter](./img/twitter.jpg)
+
+---
